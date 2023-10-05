@@ -41,7 +41,7 @@ Inicio
      media <- (idade1 + idade2)/2
      
      
-     escreva("A idade média de ",nome1," e ",nome2," é de ",media,"anos.")
+     escreva("A idade média de ",nome1," e ",nome2," é de ",media," anos.")
      
 
 
