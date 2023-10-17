@@ -22,12 +22,12 @@ Algoritmo "baskara"
 //Coeficiente b: 3
 //Coeficiente c: 4
 //Esta equacao nao possui raizes reais
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Jefferson Luís
 // Data atual  : 13/10/2023
 Var
 
 
-        x1,x2,A,B,C:real
+        x1,x2,A,B,C,delta:real
 
 
 Inicio
@@ -40,6 +40,27 @@ Inicio
        
        escreva("Coeficiente c: ")
        leia (C)
+       
+       delta <- b^2-4*a*c
+       
+       se  (delta < 0) ou (a=0) entao
+       
+          escreval("Esta equacao nao possui raizes reais")
+          
+       senao
+       
+          x1 <- (-b + RaizQ(delta))/(2*a )
+          x2 <- (-b - RaizQ(delta))/(2*a )
+
+
+       escreval("X1= ",x1:8:4)
+       escreval("X2= ",x2:8:4)
+          
+          
+       fimse
+       
+
+       
 
 
 Fimalgoritmo
