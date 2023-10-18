@@ -12,6 +12,11 @@ Algoritmo "troco_verificado"
 //Quantidade comprada: 2
 //Dinheiro recebido: 20.00
 //TROCO = 4.00
+//Exemplo 2:
+//Preço unitário do produto: 30.00
+//Quantidade comprada: 3
+//Dinheiro recebido: 70.00
+//DINHEIRO INSUFICIENTE. FALTAM 20.00 REAIS
 // Autor(a)    : Jefferson
 // Data atual  : 17/10/2023
 Var
@@ -38,13 +43,16 @@ Inicio
         
         Troco <- DinheiroRecebido-ValorProduto
         
-        se (DinheiroRecebido=>ValorUnitario) entao
+        se (ValorProduto<=DinheiroRecebido) entao
         
           escreva("TROCO = ",Troco:8:2)
           
         senao
+        
+             Troco<-ValorProduto-DinheiroRecebido
+             
 
-             escreva("DINHEIRO INSUFICIENTE. FALTAM ",Troco:8:2," REAIS"
+             escreva("DINHEIRO INSUFICIENTE.FALTAM ",Troco:4:2," REAIS")
 
         fimse
 
