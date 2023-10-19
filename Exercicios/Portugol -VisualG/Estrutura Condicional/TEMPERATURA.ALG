@@ -17,51 +17,28 @@ Algoritmo "temperatura"
 //Digite a temperatura em Celsius: 28.15
 //Temperatura equivalente em Fahrenheit: 82.67
 // Autor(a)    : Jefferson
-// Data atual  : 10/18/2023
+// Data atual  : 19/10/2023
 Var
 
-        Fahrenheit,Celsius,FormulaFahrenheit,FormulaCelsius:real
-        Escala:caractere
-        
-
-
+   C, F : real
+   unidade : caractere
 
 Inicio
 
-         escreva("Voce vai digitar a temperatura em qual escala (C/F)?")
-         leia(Escala)
+   escreva("Voce vai digitar a temperatura em qual escala (C/F)? ")
+   leia(unidade)
 
-         se escala= "F" entao
-
-            escreva("Digite a temperatura em Fahrenheit: ")
-            leia(Fahrenheit)
-
-            FormulaFahrenheit<-(Fahrenheit-32)/1,8
-
-            escreva("Temperatura equivalente em Celsius: ",FormulaFahrenheit)
-
-         se nao
-
-            se escala=C entao
-
-            escreva("Digite a temperatura em Celsius: ")
-            leia(Celsius)
-
-            FormulaCelsius<-(Celsius-32)/1,8
-
-            escreva("Temperatura equivalente em Fahrenheit: ",FormulaCelsius)
-
-            se nao
-
-            escreva("Valor Incorreto:Digite o valor F ou C")
-
-            fimse
-
-         fimse
-         
-
-            
-
-
+   se unidade = "F" entao
+      escreva("Digite a temperatura em Fahrenheit: ")
+      leia(F)
+      C <- 5 / 9 * (F - 32)
+      escreva("Temperatura equivalente em Celsius: ", C:6:2)
+   senao
+      escreva("Digite a temperatura em Celsius: ")
+      leia(C)
+      F <- 9 * C / 5 + 32;
+      escreva("Temperatura equivalente em Fahrenheit: ", F:6:2)
+   fimse
 
 Fimalgoritmo
+
