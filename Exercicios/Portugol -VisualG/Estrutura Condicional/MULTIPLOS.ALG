@@ -19,23 +19,26 @@ Algoritmo "multiplos"
 //5
 //Nao sao multiplos
 // Autor(a)    : Jefferson
-// Data atual  : 19/10/2023
+// Data atual  : 23/10/2023
 Var
 
-
-        a,b:inteiro
-   
-
+        x,y:inteiro
 
 Inicio
 
-
-
       escreval("Digite dois numeros inteiros: ")
-      leia(a)
-      leia(b)
+      leia(x)
+      leia(y)
       
+      se (x%y=0) ou (y%x=0) entao
       
+      escreva("Sao Multiplos")
+      
+      senao
+      
+      escreva("Nao sao multiplos")
+      
+      fimse
 
 
 Fimalgoritmo
