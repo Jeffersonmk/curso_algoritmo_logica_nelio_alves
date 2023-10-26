@@ -24,15 +24,69 @@ Algoritmo "coordenadas"
 //Valor de Y: 0
 //Eixo X
 // Autor(a)    : Jefferson
-// Data atual  : 24/10/2023
+// Data atual  : 25/10/2023
 Var
-        x,y:real
+
+
+        X,Y:real
 
 
 Inicio
 
-      escreva("Valor de X: ")
-      escreva("Valor de Y: ")
+
+        escreva("Valor de X: ")
+        leia(X)
+        escreva("Valor de Y: ")
+        leia(Y)
+        
+        se (x>0) e (y>0) entao
+
+           escreva("Q1")
+           
+        senao
+
+             se (x<0) e (y>0) entao
+             
+             escreva("Q2")
+             
+             senao
+
+                  se (x<0) e (y<0) entao
+                  
+                  escreva("Q3")
+                  
+                  senao
+
+                       se (x>0) e (y<0) entao
+
+                       escreva("Q4")
+                       
+                       senao
+
+                            se(x=0) e (y=0) entao
+
+                            escreva("Origem")
+                            
+                            senao
+                            
+                                 se (x=0) e (y>0) entao
+
+                                 escreva("EIXO Y")
+                                 
+                                 senao
+                                      se (x>0) e (Y=0)  entao
+                                      
+                                      escreva("EIXO X")
+                                 
+                                      fimse
+                                 fimse
+                            fimse
+                       fimse
+                  fimse
+             fimse
+         fimse
+
+        
 
 
 Fimalgoritmo
