@@ -1,4 +1,6 @@
 Algoritmo "coordenadas"
+//  
+//  
 // 
 //  
 // Descrição   : Problema "coordenadas" (adaptado de URI 1041)
