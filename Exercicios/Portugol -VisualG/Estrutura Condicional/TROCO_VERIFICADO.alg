@@ -1,4 +1,6 @@
 Algoritmo "troco_verificado"
+//  
+//  
 // 
 //  
 // Descrição   : Problema "troco_verificado"

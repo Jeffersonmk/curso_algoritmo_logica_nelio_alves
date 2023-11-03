@@ -1,4 +1,6 @@
 Algoritmo "lanchonete"
+//  
+//  
 // 
 //  
 // Descrição   :  Problema "lanchonete" (adaptado de URI 1038)

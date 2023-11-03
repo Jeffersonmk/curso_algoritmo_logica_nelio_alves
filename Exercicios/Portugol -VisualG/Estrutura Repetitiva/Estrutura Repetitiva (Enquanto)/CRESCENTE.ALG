@@ -20,7 +20,7 @@ Algoritmo "crescente"
 //2
 //2
 // Autor(a)    : Jefferson
-// Data atual  : 30/10/2023
+// Data atual  : 03/11/2023
 Var
 
         x,y:inteiro
@@ -31,22 +31,9 @@ Inicio
       escreval("Digite dois numeros:")
       leia(x)
       leia(y)
-      
-      se x>y entao
-         escreval("DECRESCENTE!")
-         senao
-              se x<y entao
-
-                  escreval("CRESCENTE!")
-              fimse
-         fimse
 
       enquanto x<>y faca
       
-         escreval("Digite outros dois numeros:")
-         leia(x)
-         leia(y)
-         
          se x>y entao
          escreval("DECRESCENTE!")
          senao
@@ -55,8 +42,11 @@ Inicio
                   escreval("CRESCENTE!")
               fimse
          fimse
-
          
+         escreval("Digite dois numeros:")
+         leia(x)
+         leia(y)
+
       fimenquanto
 
 

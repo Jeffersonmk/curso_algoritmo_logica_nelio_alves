@@ -1,4 +1,6 @@
 Algoritmo "temperatura"
+//  
+//  
 // 
 //  
 // Descrição   : Problema "temperatura"

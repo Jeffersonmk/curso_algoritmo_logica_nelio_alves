@@ -1,4 +1,6 @@
 Algoritmo "aumento"
+//  
+//  
 // 
 //  
 // Descrição   : Problema "aumento" (adaptado de URI 1048)
