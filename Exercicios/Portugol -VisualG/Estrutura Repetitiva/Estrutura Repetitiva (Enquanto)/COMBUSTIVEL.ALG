@@ -32,14 +32,12 @@ Inicio
         
            se codigo = "1" entao
               alcool<-alcool+1
-
            senao
                 se codigo = "2" entao
                    gasolina<-gasolina+1
-
                 senao
                      se codigo = "3" entao
-                     diesel<-diesel+1
+                        diesel<-diesel+1
                      fimse
                 fimse
            fimse

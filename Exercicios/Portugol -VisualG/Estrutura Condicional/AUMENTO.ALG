@@ -3,7 +3,7 @@ Algoritmo "aumento"
 //  
 // 
 //  
-// Descrição   : Problema "aumento" (adaptado de URI 1048)
+// Descricao   : Problema "aumento" (adaptado de URI 1048)
 //Uma empresa vai conceder um aumento percentual de
 //salário aos seus funcionários dependendo de quanto
 //cada pessoa ganha, conforme tabela ao lado. Fazer um

@@ -37,11 +37,8 @@ Inicio
            leia(numero)
 
            se (numero>=10) e (numero<=20) entao
-
               dentro<-dentro+1
-
            senao
-           
                 fora<-fora+1
 
            fimse

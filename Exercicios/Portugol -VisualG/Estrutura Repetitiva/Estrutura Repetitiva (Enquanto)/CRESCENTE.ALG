@@ -35,10 +35,9 @@ Inicio
       enquanto x<>y faca
       
          se x>y entao
-         escreval("DECRESCENTE!")
+            escreval("DECRESCENTE!")
          senao
               se x<y entao
-
                   escreval("CRESCENTE!")
               fimse
          fimse

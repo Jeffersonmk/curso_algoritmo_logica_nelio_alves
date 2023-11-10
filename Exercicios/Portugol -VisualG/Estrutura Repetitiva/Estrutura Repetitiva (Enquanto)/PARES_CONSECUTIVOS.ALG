@@ -1,4 +1,6 @@
 Algoritmo "pares_consecutivos"
+//  
+//  
 // 
 //  
 // Descrição   : O programa deve ler um valor inteiro X indefinidas vezes. (O programa irá parar quando o valor de X
@@ -26,10 +28,9 @@ Inicio
       leia(x)
       
       enquanto x <> 0 faca
-      
-      se x % 2 <> 0 entao
-         x<-x+1
-      fimse
+         se x % 2 <> 0 entao
+            x<-x+1
+         fimse
       
       soma<- x+(x+2)+(x+4)+(x+6)+(x+8)
       

@@ -34,7 +34,6 @@ Inicio
        para i de 1 ate 10 faca
        
             soma<-N*i
-       
             escreval("",N,"X","",i,"=",soma)
 
        fimpara

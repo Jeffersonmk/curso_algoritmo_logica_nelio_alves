@@ -45,9 +45,7 @@ Inicio
         fimenquanto
         
         se cont=0 entao
-        
            escreva("IMPOSSIVEL CALCULAR")
-           
         senao
               media<-soma/cont
               escreva("MEDIA = ",media:8:2)
