@@ -1,4 +1,6 @@
 Algoritmo "divisao"
+//  
+//  
 // 
 //  
 // Descricao   : Problema "divisao" (adaptado de URI 1116)
@@ -19,7 +21,8 @@ Algoritmo "divisao"
 // Data atual  : 11/10/2023
 Var
 
-        numerador,denominador,divisao,casos:inteiro
+        numerador,denominador,divisao:real
+        casos,i,x:inteiro
         
         
 
@@ -27,7 +30,7 @@ Inicio
 
 
         escreva("Quantos casos voce vai digitar?")
-        leia(casos)
+        leia(x)
         
         para i de 1 ate x faca
         
@@ -36,9 +39,15 @@ Inicio
              
              escreva("Entre com o denominador:")
              leia(denominador)
-             
-             
-        para
+
+             se denominador=0 entao
+                escreval("DIVISAO IMPOSSIVEL")
+             senao
+                divisao<-numerador/denominador
+                escreval("DIVISAO = ",divisao:4:2)
+             fimse
+
+        fimpara
         
 
 Fimalgoritmo
