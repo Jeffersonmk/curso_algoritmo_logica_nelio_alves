@@ -1,4 +1,6 @@
 Algoritmo "experiencias"
+//  
+//  
 // 
 //  
 // Descricao   : Problema "experiencias" (adaptado de URI 1094)
@@ -49,13 +51,14 @@ Var
 
     cobaia:caractere
     x,coelhos,ratos,sapos,quantidade,i:inteiro
+    total,percentualC,percentualS,percentualR:real
 
 
 
 Inicio
 
 
-      escreva("Quantos casos de teste serao digitados?")
+      escreva("Quantos casos de teste serao digitados? ")
       leia(x)
       
       coelhos<-0
@@ -64,17 +67,56 @@ Inicio
       
       para i de 1 ate x faca
       
-      quantidade<-0
+         quantidade<-0
+
+         escreva("Quantidade de cobaias:")
+         leia(quantidade)
+
+         escreva("Tipo de cobaia: ")
+         leia(cobaia)
+
+         se cobaia = "C" entao
+            coelhos<-coelhos+quantidade
+
+          senao
+              se cobaia = "R" entao
+
+              ratos<-ratos+quantidade
+
+              senao
+                   se cobaia = "S" entao
+
+                   sapos<-sapos+quantidade
+
+                   fimse
+
+              fimse
+
+         fimse
       
-      escreva("Quantidade de cobaias:")
-      leia(quantidade)
+      fimpara
       
-      escreva("Tipo de cobaia: ")
-      leia(cobaia)
+      total<-coelhos+sapos+ratos
       
-      se cobaia = "C" entao
+      percentualC<-coelhos/92*100
       
-      cobaia<-cobaia+quantidade
+      percentualR<-ratos/92*100
+      
+      percentualS<-sapos/92*100
+      
+      
+      escreval("RELATORIO FINAL:")
+      escreval("Total:",total," cobaias")
+      escreval("Total de coelhos:",coelhos)
+      escreval("Total de ratos: ",ratos)
+      escreval("Total de sapos: ",sapos)
+      escreval("Percentual de coelhos:",percentualC:4:2)
+      escreval("Percentual de ratos: ",percentualR:4:2)
+      escreval("Percentual de sapos: ",percentualS:4:2)
+      
+      
+           
+
       
       
       
