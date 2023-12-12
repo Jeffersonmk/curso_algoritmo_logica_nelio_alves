@@ -3,7 +3,7 @@ Algoritmo "troco_verificado"
 //  
 // 
 //  
-// Descrição   : Problema "troco_verificado"
+// Descricao   : Problema "troco_verificado"
 //Fazer um programa para calcular o troco no processo de pagamento de um produto de uma mercearia.
 //O programa deve ler o preço unitário do produto, a quantidade de unidades compradas deste produto,
 //e o valor em dinheiro dado pelo cliente. Seu programa deve mostrar o valor do troco a ser devolvido

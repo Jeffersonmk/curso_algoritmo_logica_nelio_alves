@@ -3,7 +3,7 @@ Algoritmo "combustivel"
 //  
 // 
 //  
-// Descrição   : Problema "combustivel" (adaptado de URI 1134)
+// Descricao   : Problema "combustivel" (adaptado de URI 1134)
 //Um posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes.
 //Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma:
 //1.Álcool 2.Gasolina 3.Diesel 4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a

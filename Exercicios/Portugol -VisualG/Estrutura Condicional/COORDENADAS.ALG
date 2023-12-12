@@ -3,7 +3,7 @@ Algoritmo "coordenadas"
 //  
 // 
 //  
-// Descrição   : Problema "coordenadas" (adaptado de URI 1041)
+// Descricao   : Problema "coordenadas" (adaptado de URI 1041)
 //Leia os valores das coordenadas X e Y de um ponto no plano
 //cartesiano. A seguir, determine qual o quadrante ao qual pertence o
 //ponto (Q1, Q2, Q3 ou Q4). Se o ponto estiver na origem, escreva a

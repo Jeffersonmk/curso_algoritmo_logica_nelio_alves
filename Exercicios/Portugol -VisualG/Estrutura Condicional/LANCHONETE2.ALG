@@ -1,7 +1,9 @@
 Algoritmo "lanchonete2"
+//  
+//  
 // 
 //  
-// Descrição   : Problema "lanchonete" (adaptado de URI 1038)
+// Descricao   : Problema "lanchonete" (adaptado de URI 1038)
 //Uma lanchonete possui vários produtos. Cada produto possui um código
 //e um preço. Você deve fazer um programa para ler o código e a
 //quantidade comprada de um produto (suponha um código válido), e daí
