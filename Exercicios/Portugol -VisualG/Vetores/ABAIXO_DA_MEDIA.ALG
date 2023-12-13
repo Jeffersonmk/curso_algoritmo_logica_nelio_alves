@@ -1,4 +1,6 @@
 Algoritmo "abaixo_da_media"
+//  
+//  
 // 
 //  
 // Descricao   : Problema "abaixo_da_media"
@@ -20,7 +22,7 @@ Var
 
         N,i:inteiro
         media,abaixoMedia,soma:real
-        vet:vetor [0..15] de real
+        vet:vetor [0..99] de real
         
 
 
@@ -43,13 +45,14 @@ Inicio
       fimpara
       
       media<-soma/N
+      escreval
+      escreval("MEDIA DO VETOR = ",media:5:3)
       
-      escreval("MEDIA DO VETOR = ",media:3:3)
-      
-      
-      
-      
-            .
-
+      escreval("ELEMENTOS ABAIXO DA MEDIA:")
+      para i de 0 ate N-1 faca
+           se vet[i]< media entao
+              escreval(vet[i]:3:1)
+           fimse
+      fimpara
 
 Fimalgoritmo

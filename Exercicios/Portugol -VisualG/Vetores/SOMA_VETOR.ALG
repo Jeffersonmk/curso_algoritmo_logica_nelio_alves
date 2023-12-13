@@ -25,7 +25,7 @@ Var
 
 
         N,i:inteiro
-        vet: vetor [0..6] de real
+        vet: vetor [0..99] de real
         soma,media:real
         
         
@@ -42,11 +42,11 @@ Inicio
         fimpara
         
         escreval
-        
+        escreva("VALORES = ")
         para i de 0 ate N-1 faca
              escreva(vet[i]:3:1," ")
         fimpara
-        
+
         soma<-0
         
         para i de 0 ate N-1 faca

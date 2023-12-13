@@ -22,7 +22,7 @@ Algoritmo "negativos"
 Var
 
        N,i :inteiro
-       vet:vetor [0..10] de inteiro
+       vet:vetor [0..99] de inteiro
 
 Inicio
 

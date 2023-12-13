@@ -23,7 +23,7 @@ Var
 
    cont,N,i:inteiro
    
-   numeros:vetor [0..6] de inteiro
+   numeros:vetor [0..99] de inteiro
 
 Inicio
 

@@ -34,9 +34,9 @@ Algoritmo "soma_vetores"
 Var
 
         i,N:inteiro
-        A: vetor [0..10] de inteiro
-        B: vetor [0..10] de inteiro
-        C: vetor [0..10] de inteiro
+        A: vetor [0..99] de inteiro
+        B: vetor [0..99] de inteiro
+        C: vetor [0..99] de inteiro
 
 
 Inicio

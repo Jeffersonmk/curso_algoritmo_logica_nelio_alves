@@ -23,7 +23,7 @@ Var
         i,N,posicaoMaior:inteiro
         maior:real
         
-        numeros:vetor [0..6] de real
+        numeros:vetor [0..99] de real
         
         
 
