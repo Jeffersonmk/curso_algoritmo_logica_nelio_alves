@@ -42,11 +42,76 @@ Algoritmo "comerciante"
 // Autor(a)    : Jefferson
 // Data atual  : 14/12/2023
 Var
-// Seção de Declarações das variáveis 
 
+
+        produto:vetor [0..99] de caractere
+        compra:vetor [0..99] de real
+        venda:vetor [0..99] de real
+        N,i,lucroAcima,lucroEntre,lucroAbaixo:inteiro
+        totalVenda,totalCompra,lucroTotal,lucroPercentual,lucro:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+      escreva("Serao digitados dados de quantos produtos? ")
+      leia(N)
+
+      para i de 0 ate N-1 faca
+      
+         escreval("Produto ",i+1,":")
+
+         escreva("Nome: ")
+         leia(produto[i])
+
+         escreva("Preco de compra: ")
+         leia(compra[i])
+         
+         escreva("Preco de venda: ")
+         leia(venda[i])
+         
+      fimpara
+      
+      lucroAcima<-0
+      lucroEntre<-0
+      lucroAbaixo<-0
+      
+      para i de 0 ate N-1 faca
+      
+         lucro<-venda[i]-compra[i]
+         lucroPercentual<-lucro*100.0/compra[i]
+
+         se lucroPercentual<10 entao
+            lucroAbaixo<-lucroAbaixo+1
+         senao
+               se lucroPercentual<= 20 entao
+                  lucroEntre<-lucroEntre+1
+               senao
+                    lucroAcima<-lucroAcima+1
+               fimse
+         fimse
+      fimpara
+
+      totalVenda<-0
+      totalCompra<-0
+      
+      para i de 0 ate N-1 faca
+      
+         totalCompra<-totalCompra+compra[i]
+         totalVenda<-totalVenda+venda[i]
+         
+      fimpara
+      
+      lucroTotal<-totalVenda-totalCompra
+      
+      escreval("RELATORIO:")
+      escreval("Lucro abaixo de 10%: ",lucroAbaixo)
+      escreval("Lucro entre 10% e 20%:",lucroEntre)
+      escreval("Lucro acima de 20%: ",lucroAcima)
+      escreval("Valor total de compra: ",totalCompra:4:2)
+      escreval("Valor total de venda: ",totalVenda:4:2)
+      escreval("Lucro total: ",Lucrototal:4:2)
+      
+      
+
 
 
 Fimalgoritmo
