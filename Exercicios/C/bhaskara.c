@@ -34,18 +34,21 @@ int main() {
     printf("Coeficiente b: ");
     scanf("%lf", &b);
 
-    printf("Coeficiente c:");
+    printf("Coeficiente c: ");
     scanf("%lf", &c);
 
 
     delta = (b * b)- 4 * a * c; 
 
-    X1 = (-b + sqrt(delta))/4;
-    X2 = (-b - sqrt(delta))/4;
-
-    printf("X1 = %.4lf\n", X1);
-    printf("X2 = %.4lf\n", X2);
-
+    if (delta<0 || a==0 ) {
+        printf("Esta equacao nao possui raizes reais\n");    
+    }
+    else {
+        X1 = (-b + sqrt(delta))/(2*a);
+        X2 = (-b - sqrt(delta))/(2*a);
+        printf("X1 = %.4lf\n", X1);
+        printf("X2 = %.4lf\n", X2);
+    }
 
     return 0;
 }
