@@ -24,8 +24,7 @@ int main(){
     int x,y;
 
     printf("Digite dois numeros:\n");
-    scanf("%d",&x);
-    scanf("%d",&y);
+    scanf("%d %d",&x,&y);
 
     while (x != y) {
         if (x < y) {
@@ -35,8 +34,7 @@ int main(){
             printf("DECRESCENTE!\n");
         }
         printf("Digite outros dois numeros:\n");
-        scanf("%d",&x);
-        scanf("%d",&y);
+        scanf("%d %d",&x,&y);
     }
 
     return 0;
