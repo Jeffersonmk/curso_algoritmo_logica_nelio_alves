@@ -1,4 +1,5 @@
-/*Problema "terreno"
+/*
+Problema "terreno"
 Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
 casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida,
 o programa deve mostrar o valor da área do terreno, bem como o valor do preço do terreno, ambos com
@@ -14,7 +15,8 @@ Digite a largura do terreno: 12.0
 Digite o comprimento do terrano: 20.0
 Digite o valor do metro quadrado: 150.00
 Area do terreno = 240.00
-Preco do terreno = 36000.00  */
+Preco do terreno = 36000.00  
+*/
 
 #include <stdio.h>
 

@@ -1,4 +1,5 @@
-/* Problema "retangulo"
+/* 
+Problema "retangulo"
 Fazer um programa para ler as medidas da base e altura de um retângulo. Em seguida, mostrar o valor
 da área, perímetro e diagonal deste retângulo, com quatro casas decimais, conforme exemplos.
 Exemplo 1:
@@ -12,7 +13,8 @@ Base do retangulo: 10.3
 Altura do retangulo: 13.1
 AREA = 134.9300
 PERIMETRO = 46.8000
-DIAGONAL = 16.6643 */
+DIAGONAL = 16.6643 
+*/
 
 #include <stdio.h>
 #include <math.h>
