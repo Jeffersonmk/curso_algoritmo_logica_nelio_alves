@@ -41,29 +41,30 @@ while ((c = getchar()) != '\n' && c != EOF) {}
 int main(){
     int N, i, cont;
     double media, soma, porcentagem;
-    char nome [20][50];
-    double altura [50];
-    int idade [50];
-
+    
     printf("Quantas pessoas serao digitadas? ");
     scanf("%d", &N);
     limpar_entrada();
 
-    for (i = 0; i<N; i++) {
+    double altura [N];
+    int idade [N];
+    char nome [N][50];
+
+    for (i = 0; i < N; i++) {
         printf("Dados da %da pessoa:\n", i+1);
         printf("Nome: ");
         fgets(nome[i], 20, stdin);
-        limpar_entrada();
         printf("Idade: ");
         scanf("%d", &idade[i]);
         printf("Altura: ");
         scanf("%lf", &altura[i]);
+        limpar_entrada();
     }
 
     cont = 0;
     soma = 0;
 
-    for (i = 0; i<N; i++) {
+    for (i = 0; i < N; i++) {
         soma = soma + altura[i];
         cont = cont + 1;
     }
@@ -74,8 +75,8 @@ int main(){
 
     cont = 0;
 
-    for (i = 0; i<N; i++) {
-        if (idade[i]<16) {
+    for (i = 0; i < N; i++) {
+        if (idade[i] < 16) {
             cont = cont + 1;
         }
     }
@@ -83,9 +84,10 @@ int main(){
         
     printf("Pessoas com menos de 16 anos: %.1lf%%\n ", porcentagem);
 
-    for (i = 0; i<N; i++) {
-        if (idade[i]<16) {
-            printf("%s\n", nome[i]);
+    for (i = 0; i < N; i++) {
+        if (idade[i] < 16) {
+            printf("%s", nome[i]);
         }
     }
+    return 0;
 }

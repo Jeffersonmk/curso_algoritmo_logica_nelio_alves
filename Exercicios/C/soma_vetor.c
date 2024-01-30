@@ -24,12 +24,10 @@ Digite um numero: 8.0
 Digite um numero: 4.0
 Digite um numero: 10.0
 Digite um numero: 14.0
-VALORES = 8.0
+VALORES = 8.0 4.0 10.0 14.0
 SOMA = 36.00
 MEDIA = 9.00
-4.0
-10.0
-14.0
+
 */
 
 #include <stdio.h>
@@ -37,10 +35,11 @@ MEDIA = 9.00
 int main(){
     int N, i, cont;
     double soma, media;
-    double vetor [10];
-
+    
     printf("Quantos numeros voce vai digitar? ");
     scanf("%d",&N);
+
+    double vetor [N];
 
     for (i = 0; i < N; i++) {
         printf("Digite um numero: ");

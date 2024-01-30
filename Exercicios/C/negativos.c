@@ -21,10 +21,11 @@ NUMEROS NEGATIVOS:
 int main(){
 
     int i, N;
-    int vet [10];
 
     printf("Quantos numeros voce vai digitar? ");
     scanf("%d",&N);
+
+    int vet [N];
 
     for (i = 0; i < N; i++) {
         printf("Digite um numero: ");
