@@ -23,10 +23,10 @@ int main(){
 
     double base, altura, area, perimetro, diagonal;
 
-    printf("Base do retangulo:");
+    printf("Base do retangulo: ");
     scanf("%lf", &base);
 
-    printf("Altura do retangulo:");
+    printf("Altura do retangulo: ");
     scanf("%lf", &altura);
 
     area = base * altura;
@@ -38,5 +38,4 @@ int main(){
     printf("DIAGONAL = %.4lf\n",diagonal);
 
     return 0;
-
 }

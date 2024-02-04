@@ -29,5 +29,4 @@ int main(){
     printf("SOMA = %d\n",soma);
 
     return 0;
-
 }

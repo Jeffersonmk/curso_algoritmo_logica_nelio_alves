@@ -23,46 +23,36 @@ VETOR GERADO:
 
 int main(){
 
-    int M, N, i, j, soma1, soma2;
+    int M, N, i, j;
 
     printf("Qual a quantidade de linhas da matriz? ");
     scanf("%d", &M);
     printf("Qual a quantidade de colunas da matriz? ");
     scanf("%d", &N);
-    
-    double matriz [M][N];
+
+    double matriz[M][N];
 
     for (i = 0; i < M; i++) {
-        for (i = 0; i < N; i++) {
-            printf("Digite os elementos da %d. linha:", i+1);
-            scanf("%lf %lf %lf", &matriz[i][j], &matriz[i][j], &matriz[i][j] );
+        printf("Digite os elementos da %da. linha:\n", i+1);
+        for (j = 0; j < N; j++) {
+            scanf("%lf", &matriz[i][j]);
         }
     }
 
-    soma1 = 0;
-    soma2 = 0;
+    double vetor[M];
 
     for (i = 0; i < M; i++) {
-        soma1 = matriz [i][j] + soma1;
+        vetor[i] = 0;
+        for (j = 0; j < N; j++) {
+            vetor[i] = vetor[i] + matriz[i][j];
+        }
     }
 
-    for (j = 0; j < M; i++) {
-        soma2 = matriz [i][j] + soma2;
+    printf("VETOR GERADO:\n");
+
+    for (i = 0 ; i < M; i++) {
+        printf("%.1lf\n", vetor[i]);
     }
-
-    double vetor[99];
-
-    for (i = 0; i < N; i++) {
-        vetor[i] = soma1;
-        vetor[i] = soma2;
-    }
-
-    printf("VETOR GERADO:");
-
-    for (i = 0; i < N; i++) {
-        vetor[i];
-    }
-
+    
     return 0;
 }
-
