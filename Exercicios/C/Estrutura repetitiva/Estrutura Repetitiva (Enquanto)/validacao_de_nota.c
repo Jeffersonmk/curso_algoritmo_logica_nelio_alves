@@ -6,7 +6,8 @@ intervalo [0,10]). Cada nota deve ser validada separadamente.
 Exemplo 1:
 Digite a primeira nota: 3.5
 Digite a segunda nota: 10.0
-MEDIA = 6.75Exemplo 2:
+MEDIA = 6.75
+Exemplo 2:
 Digite a primeira nota: -3.5
 Valor invalido! Tente novamente: 3.5
 Digite a segunda nota: 11.0

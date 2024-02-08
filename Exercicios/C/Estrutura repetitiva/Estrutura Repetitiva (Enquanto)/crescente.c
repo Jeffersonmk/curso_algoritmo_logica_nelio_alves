@@ -36,7 +36,5 @@ int main(){
         printf("Digite outros dois numeros:\n");
         scanf("%d %d",&x,&y);
     }
-
     return 0;
-
 }

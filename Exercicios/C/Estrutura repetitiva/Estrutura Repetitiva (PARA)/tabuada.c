@@ -28,6 +28,5 @@ int main(){
         soma = N * i;
         printf("%d x %d  = %d\n",N,i,soma);
     }
-
     return 0;
 }
