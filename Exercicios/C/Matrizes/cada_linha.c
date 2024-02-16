@@ -31,25 +31,35 @@ MAIOR ELEMENTO DE CADA LINHA:
 
 int main(){
 
-    int N, maior;
+    int N;
+    double maior;
 
     printf("Qual a ordem da matriz? ");
     scanf("%d", &N);
 
-    int matriz [N][N];
+    double matriz [N][N];
+    double vetor [N];
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++){
             printf("Elemento [%d,%d]: ", i, j);
-            scanf("%d", &matriz[i][j]);
+            scanf("%lf", &matriz[i][j]);
         }
     }
+    
+    printf("MAIOR ELEMENTO DE CADA LINHA:\n");
     for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++){
-            maior = matriz [i][j];
-            if (matriz[i][j] < maior) {
-            printf("%d\n", matriz[i][j]);
+        maior = matriz [i][0];
+        for (int j = 1; j < N; j++) {
+            if (maior < matriz[i][j]) {
+                maior = matriz [i][j];
+            }
         }
-        }
+        vetor[i] = maior;
     }
+
+    for (int i = 0; i < N; i++) {
+        printf("%.2lf\n", vetor[i]);
+    }
+    return 0;
 }

@@ -53,6 +53,5 @@ int main(){
     for (i = 0 ; i < M; i++) {
         printf("%.1lf\n", vetor[i]);
     }
-    
     return 0;
 }
