@@ -41,7 +41,7 @@ int main(){
         }
     }
 
-    printf("MAIOR VALOR = %.1lf\n", maior);
+    printf("\nMAIOR VALOR = %.1lf\n", maior);
     printf("POSICAO DO MAIOR VALOR = %d\n", posicao);
     
     return 0;
