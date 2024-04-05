@@ -16,20 +16,29 @@ Digite as tres distancias:
 83.21
 MAIOR DISTANCIA = 87.20
  */
-import java.util.Locale;
 import java.util.Scanner;
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double a,b,c;
+        double a, b, c;
 
-        System.out.println("Digite as tres distancias:");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        c = sc.nextInt();
+        System.out.println("Digite as três distâncias:");
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        c = sc.nextDouble();
         sc.close();
+
+        if (a > b && a > c) {
+            System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", a));
+        } else if (b > c) {
+            System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", b));
+        } else {
+            System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", c));
         }
     }
 }
+
