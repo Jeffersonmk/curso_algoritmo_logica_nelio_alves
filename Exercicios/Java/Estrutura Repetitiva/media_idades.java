@@ -32,10 +32,10 @@ public class Main {
         if (idades<0) {
             System.out.print("IMPOSSIVEL CALCULAR");
         } else {
-            while (idades>0) {
-                idades = sc.nextInt();
+            while (idades>=0) {
                 cont = cont + 1;
                 media = (double)idades + media;
+                idades = sc.nextInt();
             }
             sc.close();
             media = media/cont;
