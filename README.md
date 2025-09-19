@@ -15,7 +15,7 @@ Além disso, o repositório também inclui **exercícios resolvidos em outras li
 - [VisualG] para arquivos `.alg`
 - Compilador C (como GCC)
 - Java JDK (para arquivos `.java`)
-- Node.Js (para arquivos`.javascript`)
+- Node.Js (para arquivos`.js`)
 
 ## 🚀 Como usar
 
