@@ -8,13 +8,14 @@ Além disso, o repositório também inclui **exercícios resolvidos em outras li
 
 - Resolução de exercícios propostos no curso
 - Prática de estruturas condicionais, laços de repetição, vetores e funções
-- Programas escritos em **Portugol (VisualG), C e Java**
+- Programas escritos em **Portugol (VisualG), C , Java e Javascript (em andamento)**
 
 ## 🛠 Requisitos
 
 - [VisualG] para arquivos `.alg`
 - Compilador C (como GCC)
 - Java JDK (para arquivos `.java`)
+- Node.Js (para arquivos`.javascript`)
 
 ## 🚀 Como usar
 
